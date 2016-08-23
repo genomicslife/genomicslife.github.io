@@ -5,14 +5,14 @@
         <description>Genomics Life - </description>
         <link></link>
         <atom:link href="" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Mon, 22 Aug 2016 20:34:10 -0400</lastBuildDate>
-        <pubDate>Mon, 22 Aug 2016 20:34:10 -0400</pubDate>
+        <lastBuildDate>Mon, 22 Aug 2016 21:11:26 -0400</lastBuildDate>
+        <pubDate>Mon, 22 Aug 2016 21:11:26 -0400</pubDate>
         <ttl>60</ttl>
 
 
         <item>
                 <title>Hello World</title>
-                <description>&lt;p&gt;Hi, this is my first ever jekyll post!&lt;/p&gt;
+                <description>&lt;p&gt;Hi, this is my first ever Jekyll post!&lt;/p&gt;
 
 </description>
                 <link>/random/2016/08/22/hello-world.html</link>

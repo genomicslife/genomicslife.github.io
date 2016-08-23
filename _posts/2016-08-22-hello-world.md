@@ -6,6 +6,6 @@ category: random
 tags: [rando]
 ---
 
-Hi, this is my first ever jekyll post!
+Hi, this is my first ever Jekyll post!
 
 {% include JB/setup %}

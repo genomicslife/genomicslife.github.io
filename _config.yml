@@ -4,9 +4,9 @@
 # Site settings
 title: Genomics Life
 description: |
-  Ramblings about Genomics and all 
-  related science; i.e EVERYTHING! 
-owner:  Genomics Life 
+  Ramblings about Genomics and all
+  related science; i.e EVERYTHING!
+owner:  Genomics Life
 first_published: 2016 # if migrating another site, the year of your first publish
 email: genomicslife@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
