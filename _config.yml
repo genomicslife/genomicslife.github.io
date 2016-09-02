@@ -1,58 +1,27 @@
-# Welcome to Jekyll!
+# Permalinks
 #
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
 
-# Site settings
-title: Genomics Life
-description: |
-  Ramblings about Genomics and all
-  related science; i.e EVERYTHING!
-owner:  Genomics Life
-first_published: 2016 # if migrating another site, the year of your first publish
-email: genomicslife@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://genomicslife.com" # the base hostname & protocol for your site
-social:
-  #twitter: https://twitter.com/<username>
-  github: https://github.com/genomicslife
-  #linkedin-square: https://linkedin.com/in/<username>
-  #facebook-official: https://facebook.com/<username>
-  #google-plus-square: https://plus.google.com/u/0/+<username>
-  email: genomicslife@gmail.com
-  #flickr:
-  #instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+# Setup
+title:               Genomics Life
+tagline:             'Ramblings about Genomics and all related science!'
+description:         'Let there be science.'
+url:                 http://genomicslife.github.io
+baseurl:             ''
+paginate:            5
 
-# Build settings
-markdown: kramdown
-#sass:
-#  style: compressed
+# About/contact
+author:
+  name:              Nitesh Turaga
+  url:               https://twitter.com/niteshturaga
+  email:             genomicslife@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+# Gems
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
