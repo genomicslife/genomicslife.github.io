@@ -7,21 +7,32 @@ permalink:           pretty
 # Setup
 title:               Genomics Life
 tagline:             'Ramblings about Genomics and all related science!'
-description:         'Let there be science.'
+description:         'genomicslife@gmail.com'
 url:                 http://genomicslife.github.io
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Nitesh Turaga
+  name:              Nitesh Turaga, Mike Berger
   url:               https://twitter.com/niteshturaga
   email:             genomicslife@gmail.com
 
 # Custom vars
 version:             1.0.0
+google_analytics:
+disqus_shortname:
+github:
+timezone: America/New_York
+
+pages_list:
+    About: '/about'
+    Archive: '/archive'
+    Feed: '/atom.xml'
 
 # Gems
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-feed
 paginate: 5
 paginate_path: "page:num"

@@ -2,6 +2,7 @@
 <html lang="en-us">
 
   {% include head.html %}
+  {% include google_analytics.html %}
 
   <body>
 
@@ -21,10 +22,17 @@
 
       <div class="container content">
         {{ content }}
+        {% include comments.html %}
       </div>
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+
+    <!-- {% for page in site.pages_list %}
+      &nbsp;&nbsp;&nbsp;
+      <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+    {% endfor %} -->
 
     <script>
       (function(document) {
