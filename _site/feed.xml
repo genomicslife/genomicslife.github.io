@@ -2,22 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Genomics Life</title>
-    <description>Let there be science.</description>
+    <description>genomicslife@gmail.com</description>
     <link>http://genomicslife.github.io/</link>
     <atom:link href="http://genomicslife.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Sep 2016 11:19:24 -0400</pubDate>
-    <lastBuildDate>Sat, 03 Sep 2016 11:19:24 -0400</lastBuildDate>
+    <pubDate>Wed, 07 Sep 2016 20:23:18 -0400</pubDate>
+    <lastBuildDate>Wed, 07 Sep 2016 20:23:18 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Space Genomics</title>
         <description>&lt;p&gt;The first genome in space was sequenced using the Oxford Nanopore MinION sequencer. This sequencer is USB powered, and looks something like this&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://genomicslife.github.io/assets/images/nanopore_hand_for_scale.jpg&quot; alt=&quot;MinION (my hand for scale)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://genomicslife.github.io/assets/images/nanopore_hand_for_scale.jpg&quot; alt=&quot;MinION (my hand for scale)&quot; /&gt; # NOTE: Size this appropriately&lt;/p&gt;
+
+&lt;p&gt;The astronaut &lt;INSERT NAME=&quot;&quot;&gt; used the MinION to sequence the genome of &lt;INSERT organism=&quot;&quot;&gt; in &quot;space&quot;, but under the controlled environment of the space station (ISS). As expected this gave pretty similar results when compared to the same sequencing run back home(planet earth).&lt;/INSERT&gt;&lt;/INSERT&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Sep 2016 11:10:00 -0400</pubDate>
         <link>http://genomicslife.github.io/2016/09/03/space-genomics/</link>
         <guid isPermaLink="true">http://genomicslife.github.io/2016/09/03/space-genomics/</guid>
+        
+        <category>genomics</category>
         
         
       </item>

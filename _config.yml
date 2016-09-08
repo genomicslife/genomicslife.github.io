@@ -11,28 +11,29 @@ description:         'genomicslife@gmail.com'
 url:                 http://genomicslife.github.io
 baseurl:             ''
 paginate:            5
+paginate_path:       'page:num'
 
 # About/contact
 author:
-  name:              Nitesh Turaga, Mike Berger
-  url:               https://twitter.com/niteshturaga
+  name:              'Nitesh Turaga, Mike Berger'
+  url:               https://github.com/genomicslife
   email:             genomicslife@gmail.com
 
 # Custom vars
 version:             1.0.0
 google_analytics:
-disqus_shortname:
-github:
+disqus_shortname: genomicslife
+github: 
+    repo: http://github.com/genomicslife
 timezone: America/New_York
 
-pages_list:
-    About: '/about'
-    Archive: '/archive'
-    Feed: '/atom.xml'
+#pages_list:
+    #About: '/about'
+    #Archive: '/archive'
+    #Feed: '/atom.xml'
 
 # Gems
 gems:
   - jekyll-paginate
   - jekyll-feed
-paginate: 5
-paginate_path: "page:num"
+

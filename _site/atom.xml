@@ -1,13 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+       &middot; Genomics Life
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83798608-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>genomicslife@gmail.com</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/archive/">Archive</a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/pages/tags/">Tags</a>
+        
+      
+    
+
+    <!-- <a class="sidebar-nav-item" href="http://github.com/genomicslife/archive/v1.0.0.zip">Download</a> -->
+    <a class="sidebar-nav-item" href="https://github.com/genomicslife">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2016. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Genomics Life</a>
+            <small>Ramblings about Genomics and all related science!</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title"></h1>
+  <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Genomics Life</title>
  <link href="http://genomicslife.github.io/atom.xml" rel="self"/>
  <link href="http://genomicslife.github.io/"/>
- <updated>2016-09-03T11:19:24-04:00</updated>
+ <updated>2016-09-07T20:23:18-04:00</updated>
  <id>http://genomicslife.github.io</id>
  <author>
-   <name>Nitesh Turaga</name>
+   <name>Nitesh Turaga, Mike Berger</name>
    <email>genomicslife@gmail.com</email>
  </author>
 
@@ -19,9 +148,43 @@
    <id>http://genomicslife.github.io/2016/09/03/space-genomics</id>
    <content type="html">&lt;p&gt;The first genome in space was sequenced using the Oxford Nanopore MinION sequencer. This sequencer is USB powered, and looks something like this&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://genomicslife.github.io/assets/images/nanopore_hand_for_scale.jpg&quot; alt=&quot;MinION (my hand for scale)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://genomicslife.github.io/assets/images/nanopore_hand_for_scale.jpg&quot; alt=&quot;MinION (my hand for scale)&quot; /&gt; # NOTE: Size this appropriately&lt;/p&gt;
+
+&lt;p&gt;The astronaut &lt;INSERT NAME=&quot;&quot;&gt; used the MinION to sequence the genome of &lt;INSERT organism=&quot;&quot;&gt; in &quot;space&quot;, but under the controlled environment of the space station (ISS). As expected this gave pretty similar results when compared to the same sequencing run back home(planet earth).&lt;/INSERT&gt;&lt;/INSERT&gt;&lt;/p&gt;
 </content>
  </entry>
  
 
 </feed>
+
+</div>
+
+        
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+
+    <!--  -->
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>
